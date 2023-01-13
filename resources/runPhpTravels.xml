@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="PHPTravels">
+	<listeners>
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://phptravels.net/login/" />
+		<classes>
+			<class name="com.phptravels.customer.Login" />
+		</classes>
+	</test>
+s
+</suite> 
